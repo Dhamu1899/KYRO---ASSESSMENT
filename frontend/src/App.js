@@ -15,7 +15,7 @@ const App = () => {
   // Function to add transcription
   const addTranscription = async (transcription) => {
     try {
-      const response = await fetch('http://localhost:5000/transcriptions', {
+      const response = await fetch('', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -35,7 +35,7 @@ const App = () => {
   // Function to add similar user
   const addSimilarUser = async (username) => {
     try {
-      const response = await fetch('http://localhost:5000/similar-users', {
+      const response = await fetch('', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
