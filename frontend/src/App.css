@@ -1,0 +1,60 @@
+/* App.css */
+
+body {
+  background-color: #eeeeee;
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.custom-card {
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  padding: 20px;
+  transition: transform 0.2s;
+}
+
+.custom-card:hover {
+  transform: translateY(-5px);
+}
+
+.custom-card-title {
+  color: #00acc1;
+  margin-bottom: 1rem;
+}
+
+.custom-list-item {
+  background-color: #f5f5f5;
+  border-radius: 4px;
+  margin-bottom: 4px;
+  padding: 8px 12px;
+}
+
+.btn-success {
+  background-color: #4caf50;
+  color: #ffffff;
+  border: none;
+  margin-right: 10px;
+}
+
+.btn-success:hover {
+  background-color: #388e3c;
+}
+
+/* .container {
+  background-image: url('C:\Users\ADMIN\OneDrive\Desktop\Dhamu\KYRO---ASSESSMENT-main\frontend\src\background.png'); /* Adjust the path as per your project structure */
+  /* background-size: 1200px;
+  background-position: center;
+  background-repeat: no-repeat;
+  
+} */ 
+
+.watermark {
+  position: fixed;
+  bottom: 20px; /* Adjust as needed */
+  right: 20px; /* Adjust as needed */
+  font-size: 24px;
+  color: rgba(0, 0, 0, 0.3); /* Light gray color with transparency */
+}
